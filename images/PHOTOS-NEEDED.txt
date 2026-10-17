@@ -1,0 +1,6 @@
+Please add these photos (JPG, under 500 KB each):
+
+images/banners/hero.jpg   - wide landscape, free-range chickens on a farm
+images/banners/about.jpg  - farmer or poultry farm
+images/chickens/chicken-1.jpg to chicken-6.jpg - square-ish photos of different chicken breeds
+images/chickens/placeholder.jpg - any simple chicken photo

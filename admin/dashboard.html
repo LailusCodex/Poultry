@@ -1,0 +1,15 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Admin Dashboard | Poultry Shop</title><link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/styles.css"></head><body data-base="../"><header id="nav"></header>
+<section><div class="wrap"><div class="top"><h1>Dashboard</h1><div><button class="btn" id="add">Add chicken</button> <button class="btn o" id="logout">Log out</button></div></div>
+<div class="stats" id="stats"></div><div class="scroll"><table><thead><tr><th></th><th>Chicken</th><th>Category</th><th>Price</th><th>Stock</th><th>Status</th><th>Actions</th></tr></thead><tbody id="rows"></tbody></table></div></div></section>
+<dialog id="dlg"><form id="form"><h2 id="ftitle"></h2><input type="hidden" name="id"><div class="two">
+<div><label>Name</label><input name="name" required></div><div><label>Breed</label><input name="breed" required></div>
+<div><label>Age (months)</label><input name="ageMonths" type="number" min="1" required></div><div><label>Category</label><select name="category"></select></div>
+<div><label>Price (₱)</label><input name="price" type="number" min="1" required></div><div><label>Stock</label><input name="stock" type="number" min="0" required></div>
+<div><label>Sex</label><select name="sex"><option>Male</option><option>Female</option></select></div><div><label>Weight</label><input name="weight" placeholder="1.5 kg"></div>
+<div><label>Temperament</label><input name="temperament"></div><div><label>Photo</label><select name="image"></select></div></div>
+<label>Description</label><textarea name="description" rows="3" required></textarea>
+<div class="acts"><button class="btn">Save chicken</button><button type="button" class="btn o" id="cancel">Cancel</button></div></form></dialog>
+<footer id="foot"></footer><script src="../js/storage.js"></script><script src="../js/main.js"></script><script src="../js/admin.js"></script></body></html>
